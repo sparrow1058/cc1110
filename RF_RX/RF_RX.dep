@@ -2,47 +2,105 @@
 
 <project>
   <fileVersion>2</fileVersion>
-  <fileChecksum>2058265457</fileChecksum>
+  <fileChecksum>2409575501</fileChecksum>
   <configuration>
     <name>Debug</name>
     <outputs>
+      <file>$PROJ_DIR$\src\main.c</file>
+      <file>$PROJ_DIR$\src\RF_CC1110.c</file>
+      <file>$PROJ_DIR$\src\mytypedef.h</file>
+      <file>$PROJ_DIR$\src\rf_cc1110.h</file>
+      <file>$PROJ_DIR$\src\tm1650.c</file>
+      <file>$PROJ_DIR$\src\tm1650.h</file>
+      <file>$PROJ_DIR$\mytypedef.h</file>
+      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\RF_CC1110.c</file>
+      <file>$PROJ_DIR$\rf_cc1110.h</file>
       <file>$TOOLKIT_DIR$\inc\clib\math.h</file>
       <file>$TOOLKIT_DIR$\inc\clib\stdio.h</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
-      <file>$PROJ_DIR$\Debug\Exe\RF_RX.hex</file>
-      <file>$PROJ_DIR$\Debug\Obj\RF_CC1110.pbi</file>
-      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC1110F32.xcl</file>
-      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-      <file>$TOOLKIT_DIR$\inc\clib\stdlib.h</file>
       <file>$PROJ_DIR$\Debug\Obj\RF_RX.pbd</file>
+      <file>$TOOLKIT_DIR$\config\devices\Texas Instruments\lnk51ew_CC1110F32.xcl</file>
+      <file>$PROJ_DIR$\Debug\Obj\RF_CC1110.pbi</file>
+      <file>$PROJ_DIR$\Debug\Exe\RF_RX.hex</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.r51</file>
       <file>$TOOLKIT_DIR$\inc\ioCC1110.h</file>
       <file>$TOOLKIT_DIR$\inc\clib\sysmac.h</file>
       <file>$TOOLKIT_DIR$\inc\clib\string.h</file>
-      <file>$PROJ_DIR$\main.c</file>
       <file>$TOOLKIT_DIR$\lib\clib\cl-pli-nsid-1e16x01.r51</file>
       <file>$TOOLKIT_DIR$\inc\clib\stdarg.h</file>
       <file>$PROJ_DIR$\Debug\Exe\RF_RX.d51</file>
-      <file>$PROJ_DIR$\RF_CC1110.c</file>
       <file>$PROJ_DIR$\Debug\Obj\RF_CC1110.r51</file>
-      <file>$PROJ_DIR$\hal_cc1110.h</file>
-      <file>$PROJ_DIR$\rf_cc1110.h</file>
-      <file>$PROJ_DIR$\mytypedef.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tm1650.r51</file>
+      <file>$PROJ_DIR$\Debug\Obj\tm1650.pbi</file>
     </outputs>
     <file>
-      <name>$PROJ_DIR$\Debug\Exe\RF_RX.hex</name>
+      <name>$PROJ_DIR$\src\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
       <inputs>
         <tool>
-          <name>XLINK</name>
-          <file> 5 17 2 13</file>
+          <name>BICOMP</name>
+          <file> 19 3 2 13 23 20 7 21 12 5</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 19 3 2 13 23 20 7 21 12 5</file>
         </tool>
       </inputs>
     </file>
     <file>
-      <name>$PROJ_DIR$\Debug\Obj\RF_RX.pbd</name>
+      <name>$PROJ_DIR$\src\RF_CC1110.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
       <inputs>
         <tool>
-          <name>BILINK</name>
-          <file> 4 6</file>
+          <name>BICOMP</name>
+          <file> 3 2 13 23 20 7 21 12 19</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 3 2 13 23 20 7 21 12 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\src\tm1650.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 19 2 13 23 20 7 21 12</file>
+        </tool>
+        <tool>
+          <name>ICC8051</name>
+          <file> 5 19 2 13 23 20 7 21 12</file>
         </tool>
       </inputs>
     </file>
@@ -51,30 +109,21 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 6</file>
+          <file> 8</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 2</file>
+          <file> 18</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 9 19 20 1 14 10 7 11 0</file>
+          <file> 19 11 6 13 23 20 7 21 12</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 9 19 20 1 14 10 7 11 0</file>
-        </tool>
-      </inputs>
-    </file>
-    <file>
-      <name>$PROJ_DIR$\Debug\Exe\RF_RX.d51</name>
-      <inputs>
-        <tool>
-          <name>XLINK</name>
-          <file> 5 17 2 13</file>
+          <file> 19 11 6 13 23 20 7 21 12</file>
         </tool>
       </inputs>
     </file>
@@ -83,21 +132,48 @@
       <outputs>
         <tool>
           <name>BICOMP</name>
-          <file> 4</file>
+          <file> 16</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 17</file>
+          <file> 25</file>
         </tool>
       </outputs>
       <inputs>
         <tool>
           <name>BICOMP</name>
-          <file> 19 20 1 14 10 7 11 0 9</file>
+          <file> 11 6 13 23 20 7 21 12 19</file>
         </tool>
         <tool>
           <name>ICC8051</name>
-          <file> 19 20 1 14 10 7 11 0 9</file>
+          <file> 11 6 13 23 20 7 21 12 19</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Obj\RF_RX.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 16 8 27</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RF_RX.hex</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15 25 18 26 22</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\RF_RX.d51</name>
+      <inputs>
+        <tool>
+          <name>XLINK</name>
+          <file> 15 25 18 22</file>
         </tool>
       </inputs>
     </file>
@@ -106,7 +182,7 @@
       <outputs>
         <tool>
           <name>XLINK</name>
-          <file> 3</file>
+          <file> 17</file>
         </tool>
       </outputs>
     </file>

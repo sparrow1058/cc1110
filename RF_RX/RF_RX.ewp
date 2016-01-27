@@ -2065,19 +2065,22 @@
     </settings>
   </configuration>
   <file>
-    <name>$PROJ_DIR$\hal_cc1110.h</name>
+    <name>$PROJ_DIR$\src\main.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\main.c</name>
+    <name>$PROJ_DIR$\src\mytypedef.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\mytypedef.h</name>
+    <name>$PROJ_DIR$\src\RF_CC1110.c</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\RF_CC1110.c</name>
+    <name>$PROJ_DIR$\src\rf_cc1110.h</name>
   </file>
   <file>
-    <name>$PROJ_DIR$\rf_cc1110.h</name>
+    <name>$PROJ_DIR$\src\tm1650.c</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\src\tm1650.h</name>
   </file>
 </project>
 
